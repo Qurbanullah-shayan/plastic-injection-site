@@ -1,0 +1,255 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: orange;
+    background-image: gray;
+}
+
+body{
+    background-color: white;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+#Header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    position: relative;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 2px;
+}
+
+.h1__header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: sticky;
+}
+
+.header__nav{
+    background-color: white;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    color: black;
+    box-shadow: 1px 7px 9px -4px black;
+}
+
+.header__ul{
+    padding: 5px;
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+
+   
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: gray;
+}
+
+
+
+
+
+@keyframes test{
+    0%{
+        top: -20px;
+        transform: skew(0deg,-5deg)
+        scaleY(0)
+    }
+}
+
+
+.h1affect{
+    background: rgb(150, 150, 235);
+    display: inline;
+    margin: 80px;
+    position: absolute;
+    top: 80px;
+    animation-duration: 1s;
+    animation-name: test;
+    animation-iteration-count:  infinite;
+    color: rgb(241, 233, 233);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 34px 45px 34px black;
+    z-index: 2;
+}
+
+.footer{
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 50px;
+}
+
+/* produce style */
+
+.title-text{
+    width: 100%;
+    padding: 50px;
+    background: gray;
+}
+.title{
+    text-align: center;
+    color: gold;
+    box-shadow: 0px 3px 4px blue;
+    text-shadow: 5px 4px 3px black;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: -20px;
+}
+
+.title:hover{
+    transform: translateY(-7px);
+}
+.photo-box{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+.single-photo{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 20px;
+
+}
+
+.single-photo img{
+    width: 100%;
+    border-radius: 7px;
+}
+.p1{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0px 3px 4px blue;
+    text-shadow: 5px 4px 3px black;
+}
+
+/* contact style */
+.fieldset2{
+    padding-bottom: 200px;
+}
+
+.label1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input1{
+    padding: 10px;
+    margin: 10px;
+    width: 95%;
+    border-radius: 35px;
+}
+
+.input2{
+    margin-top: 30px;
+    background-color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.input2:hover{
+    background-color: brown;
+}
+
+.title-text3{
+    width: 100%;
+    padding: 50px 0px;
+    background: lightblue;
+}
+.title4{
+    color: black;
+    box-shadow: 0px 3px 4px rgb(77, 78, 76);
+    text-shadow: 5px 4px 3px rgb(103, 101, 101);
+    cursor: pointer;
+    transition: 1s;
+}
+.p5{
+
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    box-shadow: 0px 3px 4px blue;
+    text-shadow: 5px 4px 3px rgb(114, 118, 114);
+}
+
+/* tabel style */
+
+.tabel1{
+    padding: 70px;
+}
+
+table,td,th,tr{
+    border: 2px solid;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+
+tr:hover{
+    background-color: gold;
+}
+
+table{
+
+    height: 400px;
+    border-collapse: collapse;
+    width: 100%;
+    background: lightslategray;
+}
+.worker{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    word-spacing:5px;
+    font-weight: bold;
+}
+
+.information{
+    font-weight: 17px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
